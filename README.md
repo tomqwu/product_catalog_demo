@@ -1,6 +1,6 @@
 # Form Workspace — product catalog
 
-A minimal, single-page editorial catalog for four workspace concepts. The supplied office photography shapes the site's visual direction: architectural images, restrained typography, and a charcoal and stone palette. It is a static site hosted by GitHub Pages.
+A single-page editorial catalog for four workspace concepts and ten individual office products. The supplied office photography shapes the site's visual direction: architectural images, restrained typography, and a charcoal and stone palette. It is a static site hosted by GitHub Pages.
 
 ## Open the site
 
@@ -22,8 +22,9 @@ Then open [http://localhost:8000](http://localhost:8000). Stop the server with `
 
 ## What's included
 
-- `index.html` contains the page content and four workspace scenes.
+- `index.html` contains the page structure and four workspace scenes.
 - `styles.css` provides the responsive layout and visual design.
-- `images/` contains the four supplied workspace photographs used on the page.
+- `script.js` contains fourteen concept products with descriptions, specifications and illustrative CAD prices. It powers search, category filtering, sorting, product details and a local planning list that can be downloaded as CSV.
+- `images/` contains the four supplied workspace photographs and ten generated product images.
 
-This is a visual catalog concept. Each scene image can be opened at full size; there is no checkout or product detail page.
+This is a concept catalog. Product names, specifications and prices are illustrative rather than verified listings. The planning list is saved in the current browser's local storage; there is no checkout or ordering service. Totals exclude taxes, delivery and installation.
