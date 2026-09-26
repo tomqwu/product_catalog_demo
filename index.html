@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Form — a considered collection of useful, enduring objects." />
+    <title>Form — Objects for everyday life</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="Form home">FORM<span>®</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="bag" href="#collection">Bag <span aria-label="0 items">(0)</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow"><span></span> Edition No. 01</div>
+        <h1 id="hero-title">Objects for<br /><em>everyday life.</em></h1>
+        <div class="hero-footer">
+          <p>A considered collection of useful objects,<br />chosen for the way they work and feel.</p>
+          <a class="round-link" href="#collection" aria-label="Explore the collection">↘</a>
+        </div>
+      </section>
+
+      <section class="collection" id="collection" aria-labelledby="collection-title">
+        <div class="section-heading">
+          <div>
+            <p class="label">The collection</p>
+            <h2 id="collection-title">Quietly essential.</h2>
+          </div>
+          <p>Four objects, selected to bring clarity<br />and intention to the everyday.</p>
+        </div>
+
+        <div class="filters" aria-label="Filter products">
+          <button class="active" data-filter="all">All <sup>04</sup></button>
+          <button data-filter="wear">Wear <sup>01</sup></button>
+          <button data-filter="listen">Listen <sup>02</sup></button>
+          <button data-filter="live">Live <sup>01</sup></button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product" data-category="wear">
+            <a href="#product-01" aria-label="View Arc One watch">
+              <div class="product-image clay"><span class="product-number">01</span><div class="watch-art"><i></i></div><span class="view">View ↗</span></div>
+              <div class="product-meta"><div><h3>Arc One</h3><p>Automatic watch · 38 mm</p></div><strong>$280</strong></div>
+            </a>
+          </article>
+          <article class="product" data-category="listen">
+            <a href="#product-02" aria-label="View Tone headphones">
+              <div class="product-image stone"><span class="product-number">02</span><div class="headphones-art"><i></i><b></b></div><span class="view">View ↗</span></div>
+              <div class="product-meta"><div><h3>Tone</h3><p>Wireless headphones</p></div><strong>$240</strong></div>
+            </a>
+          </article>
+          <article class="product" data-category="listen">
+            <a href="#product-03" aria-label="View Field speaker">
+              <div class="product-image moss"><span class="product-number">03</span><div class="speaker-art"><i></i><b></b></div><span class="view">View ↗</span></div>
+              <div class="product-meta"><div><h3>Field</h3><p>Portable speaker</p></div><strong>$160</strong></div>
+            </a>
+          </article>
+          <article class="product" data-category="live">
+            <a href="#product-04" aria-label="View Fold lamp">
+              <div class="product-image sand"><span class="product-number">04</span><div class="lamp-art"><i></i><b></b></div><span class="view">View ↗</span></div>
+              <div class="product-meta"><div><h3>Fold</h3><p>Task light</p></div><strong>$195</strong></div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="manifesto" id="about" aria-labelledby="about-title">
+        <p class="label">Our point of view</p>
+        <h2 id="about-title">Fewer, better things.<br />Made to stay.</h2>
+        <div><p>We look for objects with purpose—honest materials, intuitive function, and a lasting point of view.</p><a href="mailto:hello@example.com">Talk to us ↗</a></div>
+      </section>
+    </main>
+
+    <footer><a class="logo" href="#top">FORM<span>®</span></a><p>Useful objects. Thoughtfully selected.</p><p>© 2026 Form Supply</p></footer>
+  </body>
+</html>
